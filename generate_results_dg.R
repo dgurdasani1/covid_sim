@@ -16,8 +16,8 @@ scenarios <- tidyr::expand_grid(
     delay_scale = c(0.79, 1.054, 1.58)
   )),
   k_group = list(tibble::tibble(
-    theta = c("15%"),
-    k = c(1.95)
+    theta = c("15%", "30%"),
+    k = c(1.95, 0.7)
   )),
   index_R0 = c(2.5),
   prop.asym = c(0),
